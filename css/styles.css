@@ -1,0 +1,57 @@
+:root{
+    --main-black-color:#212121;
+    --main-white-color:#FFFFFF;
+    --accent-blue-color:#2196F3;
+    --address-white-color: rgba(255, 255, 255, 0.6);
+    --grey: #757575;
+    --grey-bg:#2F303A;
+    --white-bg:#E5E5E5;
+    --light-grey-bg:#F5F4FA;
+    --main-font: 'Roboto',sans-serif;
+    --accent-font:'Raleway', sans-serif;
+
+}
+
+body{
+    font-family: var(--main-font);
+    color: var(--main-black-color);
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.logo{
+    font-family: var(--accent-font);
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+
+}
+
+.logo .web-logo {
+    color: var(--accent-blue-color)
+}
+
+.link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--main-black-color)
+}
+
+.link:hover,
+.link:focus {
+    color:var(--accent-blue-color)
+}
