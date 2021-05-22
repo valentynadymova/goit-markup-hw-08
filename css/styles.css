@@ -17,7 +17,6 @@ body{
     color: var(--main-black-color);
     font-style: normal;
     font-weight: normal;
-
 }
 
 ul{
@@ -25,12 +24,15 @@ ul{
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 
+.advantages h2{
+    visibility: hidden;
+}
 .logo{
     font-family: var(--accent-font);
     color: black;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.192;
@@ -43,15 +45,167 @@ a {
 }
 
 .link{
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    color: var(--main-black-color)
+    color: var(--main-black-color);
 }
 
 .link:hover,
 .link:focus {
     color:var(--accent-blue-color)
+}
+
+.title-h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-white-color);
+}
+.button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--main-white-color);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    cursor: pointer;
+    border: none;
+}
+.button:hover,
+.button:focus{
+    background-color:#188CE8;
+}
+.advantages-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-black-color);
+}
+.advantages-description {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+.h2-title{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--main-black-color);
+}
+
+.developer-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-black-color);
+}
+
+.developer-description {
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+.footer{
+    background-color: var(--grey-bg);
+}
+
+.address{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--main-white-color);
+}
+
+.address:hover,
+.address:focus{
+    color: var(--accent-blue-color)
+}
+
+.address .footer-contacts{
+    color: var(--address-white-color);
+}
+
+.address .footer-contacts:hover,
+.address .footer-contacts:focus{
+    color:var(--accent-blue-color)
+}
+.footer a{
+    color:var(--main-white-color);
+}
+
+.button-filter{
+    background: var(--light-grey-bg);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: var(--main-black-color);
+    cursor: pointer;
+    border: none;
+}
+ .button-filter:hover,
+ .button-filter:focus{
+     background: var(--accent-blue-color);
+     color: var(--main-white-color);
+     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ }
+ 
+ .current-page{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.02em;
+        color: var(--accent-blue-color);
+    }
+
+.project-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-black-color);
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+.header-container{
+    background-color: var(--main-white-color);
+}
+
+.main-banner{
+    background-color: var(--grey-bg);
+}
+
+.advantages{
+    background-color: var(--main-white-color);
+}
+
+.our-team{
+    background-color: var(--light-grey-bg);
 }
