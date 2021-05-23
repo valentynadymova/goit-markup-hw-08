@@ -37,13 +37,20 @@ a {
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-
 }
 
 .logo .web-logo {
     color: var(--accent-blue-color)
 }
 
+.studio-logo{
+    font-family: var(--accent-font);
+    color: var(--white-bg);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
 .link{
     font-weight: 500;
     font-size: 14px;
@@ -126,7 +133,9 @@ a {
     background-color: var(--grey-bg);
 }
 
-.address{
+
+
+.address-kiev{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -135,21 +144,19 @@ a {
     color: var(--main-white-color);
 }
 
-.address:hover,
-.address:focus{
+.address-kiev:hover,
+.address-kiev:focus{
     color: var(--accent-blue-color)
 }
 
-.address .footer-contacts{
-    color: var(--address-white-color);
+.footer-contacts{
+    color:var(--address-white-color);
+    font-style: normal;
 }
 
-.address .footer-contacts:hover,
-.address .footer-contacts:focus{
+.footer-contacts:hover,
+.footer-contacts:focus{
     color:var(--accent-blue-color)
-}
-.footer a{
-    color:var(--main-white-color);
 }
 
 .button-filter{
