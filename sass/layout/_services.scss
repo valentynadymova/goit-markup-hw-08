@@ -1,0 +1,39 @@
+.services {
+    padding-bottom: 94px;
+    }
+    
+    .services-list{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    .services-item{
+        margin-left: 30px;
+        position: relative;
+    }
+    
+    .services-desc{
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        bottom: 0;
+        z-index: 1;
+    }
+    
+    .services-desc h3{
+        color: var(--main-white-color);
+        font-family: inherit;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        background: rgba(47, 48, 58, 0.8);
+        width: 100%;
+        height: 100%;
+        padding-top: 27px;
+    }
+    

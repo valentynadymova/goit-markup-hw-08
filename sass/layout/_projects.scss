@@ -1,0 +1,69 @@
+.project-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-black-color);
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+.project-set{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.project-item{
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100%-270px)/9);
+
+&:hover,
+&:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+.project-item a {
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+ 
+
+.project-item:hover .overlay,
+.project-item:focus .overlay {
+    display: block;
+    transform: translateY(0);
+    animation: up 250ms linear forwards normal;
+    transition: var(--time-animation);
+}
+
+
+.project-card{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    padding:20px 24px;
+}
+
+.project-card {
+    position: relative;
+    z-index: 1;
+    background-color: var(--main-white-color);
+    width: 370px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}

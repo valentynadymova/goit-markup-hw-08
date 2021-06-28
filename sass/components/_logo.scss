@@ -1,0 +1,22 @@
+.logo{
+    font-family: var(--accent-font);
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+
+& .web-logo {
+    color: var(--accent-blue-color)
+}
+}
+
+.studio-logo{
+    font-family: var(--accent-font);
+    color: var(--white-bg);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
