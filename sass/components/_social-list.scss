@@ -6,13 +6,13 @@
     width: 44px;
     height: 44px;
     cursor: pointer;
-}
-.social-icon-item:hover,
-.social-icon-item:focus{
+
+    &:hover,
+    &:focus{
     background-color: var(--accent-blue-color);
     fill: var(--main-white-color);
     transition: var(--time-animation);
-}
+}}
 
 .social-icon{
     width: 20px;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-}
-.social-icons-list:not(:last-child){
-    margin-right: 10px;
-}
+
+    &:not(:last-child){
+        margin-right: 10px;
+}}

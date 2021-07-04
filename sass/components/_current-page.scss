@@ -4,9 +4,9 @@
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--accent-blue-color);
-}
 
-.current-page::after{
+
+&::after{
 display: block;
 content: '';
 position: absolute;
@@ -15,4 +15,4 @@ background: var(--accent-blue-color);
 border-radius: 2px;
 height: 4px;
 bottom: -33.5px;
-}
+}}

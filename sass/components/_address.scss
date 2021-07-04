@@ -5,13 +5,12 @@
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--main-white-color);
-}
 
-.address-kiev:hover,
-.address-kiev:focus{
+    &:hover,
+    &:focus{
     color: var(--accent-blue-color);
     transition: var(--time-animation);
-}
+}}
 
 .footer-address{
     margin-top: 20px;
