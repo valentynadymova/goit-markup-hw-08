@@ -410,6 +410,12 @@ b {
   color: var(--accent-blue-color);
 }
 
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 93px;
+  }
+}
+
 .studio-logo {
   font-family: var(--accent-font);
   color: var(--white-bg);
@@ -656,6 +662,7 @@ b {
 
 .menu {
   display: none;
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -905,7 +912,7 @@ b {
   background: var(--accent-blue-color);
   border-radius: 2px;
   height: 4px;
-  bottom: -33.5px;
+  bottom: -26px;
 }
 
 .services {
@@ -1264,6 +1271,12 @@ b {
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-top: -30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .project-set {
+    justify-content: center;
+  }
 }
 
 .project-item {
