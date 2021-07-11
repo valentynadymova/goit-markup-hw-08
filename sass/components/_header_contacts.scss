@@ -1,6 +1,15 @@
 .contacts{
-    display:flex;
-    align-items: center;
+    display:none;
+
+    @media screen and (min-width:768px){
+        display: block;
+        margin-left: auto;
+    }
+    @media screen and (min-width:1200px){
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+    }
 }
 
 
@@ -14,7 +23,7 @@
 
 
 .contacts__link{
-    display: flex;
+    // display: flex;
     align-items: center;
     margin-right: 30px;
     fill: var(--grey);

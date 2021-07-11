@@ -2,13 +2,19 @@
     background-color: var(--grey-bg);
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: center;
 }
 .footer .container {
-    width: 1200px;
+    width: 480x;
     margin: 0 auto;
     padding: 0 15px;
 }
 .container.footer{
-    display: flex;
-    align-items: baseline;
+    // display: flex;
+    // align-items: baseline;
+    @media screen and (min-width: 1200px){
+        display: flex;
+
+    }
 }
+

@@ -19,13 +19,18 @@
 
 .header-nav{
     display:flex;
-    
+    justify-content: space-between;
 }
 
 .menu{
-    display:flex;
-    margin-right:200px; 
-    align-items: center;
-    
+    display:none;
+    // margin-right:200px; 
+    // align-items: center;
+    @media screen and (min-width:768px){
+        display: flex;
+    }
 }
 
+.mobile {
+    fill: black ;
+}
